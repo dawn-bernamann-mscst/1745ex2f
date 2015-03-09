@@ -1,0 +1,180 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 2
+   Tutorial Case
+
+   CAMShots Style Sheet
+   Author: Gerry Hayward
+   Date:   3/1/2014
+
+   Filename:         camstyles.css
+   Supporting Files: none
+
+*/
+@font-face {
+   font-family: 'NobileRegular';
+   src: url('nobile-webfont.eot');
+   src: local('☺'), 
+        url('nobile-webfont.woff') format('woff'), 
+        url('nobile-webfont.ttf') format('truetype'), 
+        url('nobile-webfont.svg#webfontsKo9tqe9') format('svg');
+}
+
+
+body {
+line-height: 1.5em;
+font-family: Verdana, Geneva, sans-serif;
+background-color: rgb(130,130,130);
+color:rgb(255,255,255);
+}
+
+header {
+text-align: left;
+}
+
+
+section nav {
+font-size: 0.9em;
+text-align: center;
+}
+
+
+nav ul {
+list-style-type: none;
+font-size: 0.8em;
+}
+
+nav ul li {
+text-align: center;
+border: 0.06em solid #2d04ff;
+background-color: rgba(255,255,255,1.00);
+line-height: 1.5em;
+}
+
+nav ul li a {
+	color: red;
+	color:rgba(170,0,11,3.00);
+	text-decoration: none;
+}
+
+
+section p {
+font-size: 1.1em;
+}
+
+section.full h1 {
+text-align: right;
+font-size: 2em;
+letter-spacing: 0.1em;
+}
+
+section.full p {
+font-size: 0.9em;
+}
+
+section.full article h1 {
+font-size: 1.1em;
+text-align: left;
+letter-spacing:  0.3em;
+color:rgba(170,0,11,3.00);
+color:rgb(170,0,11);
+}
+
+section.full article figure {
+margin-bottom: 0.62em;
+}
+
+aside h1 {
+text-align: center;
+line-height: 1.1em;
+font-size: 1.12em;
+font-weight: bold;
+color:rgba(170,0,11,3.00);
+color:rgb(170,0,11);
+}
+
+
+aside figure figcaption {
+line-height: 1em;
+text-align: center;
+font-style: italic;
+font-size: 0.7em;
+}
+
+aside li {
+	font-size: 1.0em;
+	line-height: 1.1em;
+	font-family: NobileRegular, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	list-style-image: url(arrow.png);
+}
+aside ul li: first-of-type {
+	font-variant: small-caps;
+	}
+
+footer {
+text-align: center;
+}
+
+footer address {
+font-size: 0.8em;
+font-style: normal;
+font-variant: small-caps;
+}
+
+
+h1, h3, h4, h5, h6 {
+	font-family: NobileRegular, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 1.25em;
+
+}
+
+header h1 {
+font-size: 2em;
+}
+
+
+h2 {
+font-family: NobileRegular, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+font-size: 1.5em;
+font-weight: bold;
+text-align: center;
+color:rgba(170,0,11,3.00);
+color:rgb(170,0,11);
+letter-spacing: 0.3em;
+}
+
+
+header h2 {
+font-size: 1.2em;
+font-style: italic;
+}
+
+
+aside h2 {
+text-align: center;
+}
+
+aside p {
+font-size: 0.8em;
+}
+
+
+section article p {
+	font-family: NobileRegular, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height: 1.5em;
+}
+/
+p:first-letter {
+	text-transform: uppercase;
+	font-size: 1.25em;
+}
+
+nav ul li:hover {
+	background-color:rgb(0,161,219);
+}
+
+nav ul li:active {
+	background-color:rgba(170,0,11,3.00);
+	background-color:rgb(170,0,11);
+}

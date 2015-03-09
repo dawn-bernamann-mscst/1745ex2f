@@ -1,0 +1,74 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+
+   Programming Table Style Sheet
+   Author: Gage Rhyner
+   Date: 12/15/2014  
+
+   Filename:        Table.css
+   Supporting Files: 
+
+*/
+
+table.Issues {
+	width: 100%;
+	border: 0.2em solid black;
+	border-collapse:collapse;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+table.Issues caption {
+	text-align:left;
+	font-size: 0.8em;
+}
+
+table.Issues td {
+	font-size: 0.7em;
+	vertical-align:text-top;
+	border: .062em solid black;
+	padding: 0.125em;
+}
+table.Issues th {
+	font-size: 0.7em;
+	vertical-align:text-top;
+	border: .062em solid black;
+	padding: 0.125em;
+}
+
+tr {
+	height: 1.56em;
+}
+
+thead {
+	color:white;
+	background-color: rgb(0, 51, 171);
+}
+
+thead th {
+	font-size: 0.7em;
+	border: 0.062em solid gray;
+}
+
+thead th:first-of-type {
+	background-color: rgb(175, 1, 4);
+}
+
+thead th:nth-of-type(7), thead th:nth-of-type(8) {
+	background-color: rgb(0, 118, 6);
+}
+
+table col.TitleColumn {
+	width:10%;
+	background-color: rgb(175, 1, 4);
+}
+
+table col.wDayColumns {
+	width: 11%;
+	background-color: rgb(0, 51, 171);
+}
+
+table col.wEndColumns {
+	width: 15%;
+	background-color: rgb(0, 118, 6);
+}
